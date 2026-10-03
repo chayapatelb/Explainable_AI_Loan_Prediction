@@ -1,0 +1,23 @@
+FAIR AI PROJECT - FINAL RESULTS SUMMARY
+==================================================
+
+DATASET
+  Total records:      30162
+  Features:           5
+  High-income rate:   24.9%
+  Bias in data:       0.200
+
+MODEL PERFORMANCE
+            Model  Accuracy  Fairness_Gap  Overall_Score
+0        Baseline  0.807227      0.227561       0.579666
+1      Fair Model  0.788331      0.010749       0.777582
+2  Neural Network  0.809547      0.199806       0.609741
+
+BEST MODEL: Fair Model
+  Accuracy:      0.788
+  Fairness gap:  0.011
+  Overall score: 0.778
+
+ENERGY
+  CO2, 1000 predict() calls: 0.000007 kg
+  CO2 per call:              0.00000001 kg
